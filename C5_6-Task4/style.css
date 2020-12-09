@@ -1,0 +1,26 @@
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#main_input-height {
+	margin-top: 45px;
+}
+
+.main_button, .clear_button {
+	background-color:  #F15626;
+	border-radius: 7px;
+	border: none;
+	width: 150px;
+	height: 35px;
+	margin-top: 30px;
+
+}
+
+.main_button:hover, .clear_button:hover  {
+	background-color:  #F77A49
+}
+.result {
+	margin-top: 45px;
+}

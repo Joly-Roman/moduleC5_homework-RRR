@@ -1,0 +1,36 @@
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#main_input-pageNumber {
+	margin-bottom: 20px;
+}
+
+#main_input-limit {
+	margin-bottom: 20px;
+}
+
+.main_button {
+	margin-top: 5px;
+}
+
+
+.main_button, .clear_button {
+	background-color:  #1A0FFE;
+	border-radius: 7px;
+	border: none;
+	width: 150px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+
+}
+
+.main_button:hover, .clear_button:hover  {
+	background-color:  #4B69FF;
+}
+.result {
+	margin-top: 30px;
+}
